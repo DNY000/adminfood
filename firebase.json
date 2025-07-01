@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "foodapp-daade",
+          "appId": "1:44206956684:android:1ebde9c85df6ac678f9ba9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "foodapp-daade",
+          "configurations": {
+            "android": "1:44206956684:android:1ebde9c85df6ac678f9ba9",
+            "ios": "1:44206956684:ios:5b3ed87a39d8fdb88f9ba9",
+            "macos": "1:44206956684:ios:5b3ed87a39d8fdb88f9ba9",
+            "web": "1:44206956684:web:2e75f3fa3b36cf5e8f9ba9",
+            "windows": "1:44206956684:web:b7c909eeebe4eec08f9ba9"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
